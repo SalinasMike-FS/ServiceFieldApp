@@ -1,13 +1,13 @@
 //
-//  SignUpViewController.swift
+//  ProfileViewController.swift
 //  ServiceField
 //
-//  Created by Natividad Michael Salinas II on 1/14/23.
+//  Created by Natividad Michael Salinas II on 1/15/23.
 //
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,17 +25,5 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func saveButton(_ sender: Any) {
-     
-        performSegue(withIdentifier: "showProfile", sender: self)
-    }
 
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "showProfile" {
-//            let destinationVC = segue.destination as! ProfileViewController
-//            destinationVC.user = currentUser
-//        }
-//    }
-
-    
 }
