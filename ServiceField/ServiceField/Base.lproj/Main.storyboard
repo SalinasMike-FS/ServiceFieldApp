@@ -131,11 +131,11 @@
             <objects>
                 <viewController id="Mah-EG-url" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZJS-x0-Trh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r0e-PM-nF1">
-                                <rect key="frame" x="77" y="95" width="239" height="146"/>
+                                <rect key="frame" x="77" y="95.000000000000014" width="239" height="134.33333333333337"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clocked In:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTV-0I-QUG">
                                 <rect key="frame" x="118" y="265" width="85" height="21"/>
@@ -159,10 +159,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MxY-cC-kKa">
-                                <rect key="frame" x="15" y="502" width="363" height="208"/>
+                                <rect key="frame" x="15" y="484" width="363" height="191"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uoi-tZ-IGo">
-                                        <rect key="frame" x="3" y="3" width="357" height="202"/>
+                                        <rect key="frame" x="3" y="3" width="357" height="185"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Role:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPo-Ry-tWc">
                                                 <rect key="frame" x="8" y="72" width="38" height="21"/>
@@ -212,7 +212,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Clocked Out:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNg-0n-gxZ">
-                                <rect key="frame" x="118" y="297" width="99" height="21"/>
+                                <rect key="frame" x="118" y="279" width="99" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -232,6 +232,7 @@
                             <constraint firstItem="r0e-PM-nF1" firstAttribute="leading" secondItem="GPx-AZ-ALv" secondAttribute="leading" constant="77" id="zYM-2W-aVS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Il4-5j-2CT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crQ-5j-Lcj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -380,6 +381,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="saveButton:" destination="zw5-yh-nxk" eventType="touchUpInside" id="a9h-bN-Qhx"/>
+                                    <segue destination="Mah-EG-url" kind="presentation" identifier="showProfile" destinationCreationSelector="showProfile:" id="OJz-ZQ-uRH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kft-dg-9Fd">
@@ -427,6 +429,14 @@
                             <constraint firstItem="Inn-yn-dNQ" firstAttribute="leading" secondItem="OCh-FG-XaX" secondAttribute="leading" constant="10" id="ysu-oN-L7G"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="userAddress" destination="Afd-ng-ncT" id="F8O-J0-fr6"/>
+                        <outlet property="userCity" destination="heQ-aO-mtp" id="2cr-VC-rjg"/>
+                        <outlet property="userFirstName" destination="3j6-WI-izv" id="eRg-RJ-gy6"/>
+                        <outlet property="userLastName" destination="IW1-sd-SWD" id="r0i-Cb-Z7l"/>
+                        <outlet property="userState" destination="Je2-8s-zFa" id="cRM-9G-tCq"/>
+                        <outlet property="userZipCode" destination="yht-SK-wCT" id="GiK-E1-QU6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRc-OI-HRg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,33 +9,60 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var userFirstName: UITextField!
+    @IBOutlet weak var userLastName: UITextField!
+    @IBOutlet weak var userAddress: UITextField!
+    @IBOutlet weak var userCity: UITextField!
+    @IBOutlet weak var userState: UITextField!
+    @IBOutlet weak var userZipCode: UITextField!
+    
+   
+    var user: User
+      var employee: Employee
+      var manager: Manager
+    
+    required init?(coder: NSCoder) {
+        self.user = User(firstName: "", lastName: "", address: "", city: "", state: "", zipCode: "")
+        self.employee = Employee(firstName: "", lastName: "", address: "", city: "", state: "", zipCode: "", truckNumber: "")
+        self.manager = Manager(firstName: "", lastName: "", address: "", city: "", state: "", zipCode: "", department: "")
+        super.init(coder: coder)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
     }
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     @IBAction func saveButton(_ sender: Any) {
+        
+        let firstName = userFirstName.text ?? ""
+            let lastName = userLastName.text ?? ""
+            let address = userAddress.text ?? ""
+            let city = userCity.text ?? ""
+            let state = userState.text ?? ""
+            let zipCode = userZipCode.text ?? ""
+            user = User(firstName: firstName, lastName: lastName, address: address, city: city, state: state, zipCode: zipCode)
+            employee = Employee(firstName: firstName, lastName: lastName, address: address, city: city, state: state, zipCode: zipCode, truckNumber: "")
+            manager = Manager(firstName: firstName, lastName: lastName, address: address, city: city, state: state, zipCode: zipCode, department: "")
      
         performSegue(withIdentifier: "showProfile", sender: self)
     }
 
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "showProfile" {
-//            let destinationVC = segue.destination as! ProfileViewController
-//            destinationVC.user = currentUser
-//        }
+//    @IBSegueAction func showProfile(_ coder: NSCoder) -> UIViewController? {
+//        return UIViewController(coder: coder)
 //    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showProfile" {
+            if let destinationVC = segue.destination as? ProfileViewController {
+                destinationVC.user = user
+            }
+           
+        }
+    }
 
     
 }
