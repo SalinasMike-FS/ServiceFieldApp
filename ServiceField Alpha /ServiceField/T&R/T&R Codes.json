@@ -1,0 +1,244 @@
+{
+  "Series": {
+    "1000": {
+      "Codes": {
+        "1001": {
+          "Title": "EPA Certification",
+          "Type": "Administration",
+          "Expiration": "No",
+          "Description": "The EPA (Environmental Protection Agency) certification EPA regulations (40 CFR Part 82, Subpart F) under Section 608 of the Clean Air Act require that technicians who maintain, service, repair, or dispose of equipment that could release refrigerants into the atmosphere must be certified. Technicians are required to pass an EPA-approved test to earn Section 608 Technician Certification. The tests are specific to the type of equipment the technician seeks to work on. Tests must be administered by an EPA-approved certifying organization. Section 608 Technician Certification credentials do not expire. Core tests taken as an open book exam cannot be used to get your Universal Certification. The core test must be taken as a proctored exam to attain Universal Certification. EPA regulations (40 CFR Part 82, Subpart F) under Section 608 of the Clean Air Act define a 'technician' as an individual who performs any of the following activities: Attaching and detaching hoses and gauges to and from an appliance to measure pressure within the appliance. Adding refrigerant to or removing refrigerant from an appliance. Any other activity that violates the integrity of a motor vehicle air conditioner (MVAC)-like appliance or small appliance (other than disposal). Apprentices are exempt from certification requirements provided they are closely and continually supervised by a certified technician. This Training code shall only be provided to Technicians who obtain the EPA Universal.",
+          "Prerequisite": "None"
+        },
+        "1003": {
+          "Title": "Certified Service Technician Level I",
+          "Type": "Administration",
+          "Expiration": "Discretion",
+          "Description": "Certified Maintenance Technician; Basic repairs on Air Conditioners, Basic repairs on Furnaces. On-Call schedule rotation. ",
+          "Prerequisite": "1001, 1002A"
+        },
+        "1004": {
+          "Title": "Boiler Service Technician Level I",
+          "Type": "Administration",
+          "Expiration": "Discretion",
+          "Description": "Certified Maintenance Technician; Certified Service Technician Level I, Basic boiler repairs on hot water boilers only. This includes sweat or propress repairs, brush downs, Zone Valve and or circulator pump replacements. This code may be assigned to Technicians who do not have an EPA Certification.",
+          "Prerequisite": "1001, 1002A, 1003"
+        },
+        "1002A": {
+          "Title": "Certified Maintenance Technician",
+          "Type": "Administration",
+          "Expiration": "Discretion",
+          "Description": "Official designation of a Maintenance Technician. This Technician must be able to speak in a professional manner to all fellow employees and customers. Maintain and care their works space (Truck). These Technicians must be able to inspect HVAC units, dissemble HVAC units, reassemble HVAC units, clean HVAC units, read wiring diagrams and understand basic electricity, understand basic refrigeration, and airflow.",
+          "Prerequisite": "1001"
+        },
+        "1002B": {
+          "Title": "Certified Maintenance Technician (Generator)",
+          "Type": "Administration",
+          "Expiration": "Discretion",
+          "Description": "Official designation of a Maintenance Technician. This Technician must be able to speak in a professional manner to all fellow employees and customers. Maintain and care their works space (Truck). These Technicians must be able to inspect HVAC units, dissemble HVAC units, reassemble HVAC units, clean HVAC units, read wiring diagrams and understand basic electricity, understand basic refrigeration, and airflow.",
+          "Prerequisite": "1001"
+        }
+      }
+    },
+    "2000": {
+      "Codes": {
+        "2001": {
+          "Title": "Furnace Maintenance",
+          "Type": "Furnace",
+          "Expiration": "90 Days",
+          "Description": "See Certified Maintenance Technician.",
+          "Prerequisite": "None"
+        },
+        "2002": {
+          "Title": "Diagnoses of Furnace",
+          "Type": "Furnace",
+          "Expiration": "90 Days",
+          "Description": "Properly diagnosing the Furnace for whatever issues the customer seems to have. This is a proper code to add if the Technician had to solve an issue on site.",
+          "Prerequisite": "None"
+        },
+        "2003": {
+          "Title": "Formal Forced Air Furnace Training (non-Practical)",
+          "Type": "Furnace",
+          "Expiration": "Discretion",
+          "Description": "receiving formal training on Forced air furnaces. This is meant for the classroom setting only.",
+          "Prerequisite": "None"
+        },
+        "2004": {
+          "Title": "Formal Forced Air Furnace Training (Practical)",
+          "Type": "Furnace",
+          "Expiration": "Discretion",
+          "Description": "receiving formal training on Forced air furnaces. This is meant for the Practical application of training only.",
+          "Prerequisite": "None"
+        },
+        "2005": {
+          "Title": "Induction Motor Replacement",
+          "Type": "Furnace",
+          "Expiration": "90 Days",
+          "Description": "The full replacement of the induction motor on forced air furnaces.",
+          "Prerequisite": "1002A, 2003, 2004"
+        },
+        "2006": {
+          "Title": "Ignitor Replacement",
+          "Type": "Furnace",
+          "Expiration": "90 Days",
+          "Description": "Full replacement of the ignitor; standing pilot, and spark are included.",
+          "Prerequisite": "1002A, 2003, 2004"
+        },
+        "2007": {
+          "Title": "Gas Valve Replacement; Calibration",
+          "Type": "Furnace",
+          "Expiration": "Discretion",
+          "Description": "Replacement of the gas valve in a furnace. Tested and calibrate.",
+          "Prerequisite": "1002A, 2003, 2004"
+        },
+        "2008": {
+          "Title": "Control Board replacement",
+          "Type": "Furnace",
+          "Expiration": "90 Days",
+          "Description": "Replacement of the mother/control board in furnace systems. Tested and calibrated. ",
+          "Prerequisite": "1002A, 2003, 2004"
+        },
+        "2009": {
+          "Title": "Blower Motor replacement/Clean Wheel",
+          "Type": "Furnace",
+          "Expiration": "90 Days",
+          "Description": "Replacement of direct drive motors and ECM blowers, this code covers cleaning of the blower wheel because the method to replace requires the same steps to complete.",
+          "Prerequisite": "1002A, 2003, 2004"
+        }
+      }
+    },
+    "3000": {
+      "Codes": {
+        "3001": {
+          "Title": "Boiler Maintenance",
+          "Type": "Boiler",
+          "Expiration": "90 Days",
+          "Description": "See Certified Maintenance Technician.",
+          "Prerequisite": "None"
+        },
+        "3002": {
+          "Title": "Diagnoses of Boiler",
+          "Type": "Boiler",
+          "Expiration": "90 Days",
+          "Description": "Properly diagnosing the Boiler for whatever issues the customer seems to have. This is a proper code to add if the Technician had to solve an issue on site.",
+          "Prerequisite": "None"
+        },
+        "3003": {
+          "Title": "Formal Hot Water Boiler Training (non-Practical)",
+          "Type": "Boiler",
+          "Expiration": "Descretion",
+          "Description": "Receiving formal training on Hot water Boilers. This is meant for the classroom setting only..",
+          "Prerequisite": "None"
+        },
+        "3004": {
+          "Title": "Formal Hot Water Boiler Training (Practical)",
+          "Type": "Boiler",
+          "Expiration": "Descretion",
+          "Description": "Receiving formal training on Hot water Boilers. This is meant for the Practical application of training only.",
+          "Prerequisite": "None"
+        },
+        "3005": {
+          "Title": "Formal Steam Boiler Training (non-Practical)",
+          "Type": "Boiler",
+          "Expiration": "Descretion",
+          "Description": "Receiving formal training on Steam Boilers. This is meant for the classroom setting only.",
+          "Prerequisite": "None"
+        },
+        "3006": {
+          "Title": "Formal Steam Boiler Training (Practical)",
+          "Type": "Boiler",
+          "Expiration": "Descretion",
+          "Description": "Receiving formal training on Steam Boilers. This is meant for the Practical application of training only.",
+          "Prerequisite": "None"
+        },
+        "3007": {
+          "Title": "Formal Tankless Boiler Training (non-Practical)",
+          "Type": "Boiler",
+          "Expiration": "Descretion",
+          "Description": "Receiving formal training on Tankless Boilers and Water Heaters. This is meant for the classroom setting only.",
+          "Prerequisite": "None"
+        },
+        "3008": {
+          "Title": "Formal Tankless Boiler Training (Practical)",
+          "Type": "Boiler",
+          "Expiration": "Descretion",
+          "Description": "receiving formal training on Tankless Boiler and Water Heaters. This is meant for the Practical application of training only.",
+          "Prerequisite": "None"
+        },
+        "3009": {
+          "Title": "Basic Replacement of Air Eliminator",
+          "Type": "Boiler",
+          "Expiration": "90 Days",
+          "Description": "Replacement of any automatic air vent that is threaded.",
+          "Prerequisite": "3001, 3003"
+        },
+        "3010": {
+          "Title": "Advanced Replacement of Air Eliminator",
+          "Type": "Boiler",
+          "Expiration": "90 Days",
+          "Description": "Replacement of any automatic air vent that is threaded, sweated, or propress. Use this if the technician must open the system up and remove the old one from the supply or return pipes.",
+          "Prerequisite": "3001, 3003, 3009"
+        },
+        "3011": {
+          "Title": "Replacement of the Expansion Tank",
+          "Type": "Boiler",
+          "Expiration": "90 Days",
+          "Description": "Replacement of any size expansion tank. Does not include gravity tanks.",
+          "Prerequisite": "3001, 3002, 3003"
+        },
+        "3012": {
+          "Title": "Replacement of Standard or Variable speed Circulator Pump",
+          "Type": "Boiler",
+          "Expiration": "90 Days",
+          "Description": "Replacement of Standard or Variable speed Circulator Pump.",
+          "Prerequisite": "3001, 3003, 3002"
+        },
+        "3013": {
+          "Title": "Soot Removal",
+          "Type": "Boiler",
+          "Expiration": "90 Days",
+          "Description": "Brush down of the heat exchanger.",
+          "Prerequisite": "3001, 3003, 3002"
+        }
+      }
+    },
+    "4000": {
+      "Codes": {
+        "4001": {
+          "Title": "Air Conditioning Maintenance",
+          "Type": "AC/Heat Pumop",
+          "Expiration": "Descretion",
+          "Description": "See Certified Maintenance Technician.",
+          "Prerequisite": "1001, 1002A"
+        },
+        "4002": {
+          "Title": "Diagnoses of Air Conditioning",
+          "Type": "AC/Heat Pump",
+          "Expiration": "90 Days",
+          "Description": "Properly diagnosing the Air Conditioning for whatever issues the customer seems to have. This is a proper code to add if the Technician had to solve an issue on site.",
+          "Prerequisite": "None"
+        },
+        "4003": {
+          "Title": "Formal Air Conditioning Training (non-Practical)",
+          "Type": "AC/Heat Pump",
+          "Expiration": "90 Days",
+          "Description": "Brush down of the heat exchanger.",
+          "Prerequisite": "None"
+        },
+        "4004": {
+          "Title": "Formal Air Conditioning Training (Practical)",
+          "Type": "AC/Heat Pump",
+          "Expiration": "90 Days",
+          "Description": "receiving formal training on Air Conditioning Boilers. This is meant for the Practical application of training only.",
+          "Prerequisite": "None"
+        },
+        "4005": {
+          "Title": "Replacement of any Electrical Component",
+          "Type": "AC/Heat Pump",
+          "Expiration": "90 Days",
+          "Description": "Replacing any electrical component from the condenser. Does not include compressor.",
+          "Prerequisite": "1002A"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Shawn Cunningham",
+        "quantity":3,
+        "type":"part",
+        "truckNumber":112
+        
+    },
+    {
+        "name":"Martin Wallace",
+        "quantity":5,
+        "type":"part",
+        "truckNumber":98
+        
+    },
+    {
+        "name":"Roy Young",
+        "quantity":1,
+        "type":"tool",
+        "truckNumber":35
+        
+    },
+    {
+        "name":"Anthony Berry",
+        "quantity":14,
+        "type":"tool",
+        "truckNumber":59
+        
+    },
+    {
+        "name":"Gregory Lawrence",
+        "quantity":30,
+        "type":"part",
+        "truckNumber":25
+        
+    }
+]

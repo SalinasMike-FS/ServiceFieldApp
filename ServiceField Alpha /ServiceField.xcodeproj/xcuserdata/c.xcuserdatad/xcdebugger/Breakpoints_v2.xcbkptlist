@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6020857A-4349-4A9B-8BC7-66A470AFAABA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE98C163-47FA-4F1A-A247-D9E23F3D6ADE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ServiceField/T&amp;R/CreateAEventViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "addEventButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "184473A5-ECD9-4268-8140-7E2F20E2C808"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ServiceField/T&amp;R/TRCodeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "loadCodesFromFirebase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "184473A5-ECD9-4268-8140-7E2F20E2C808 - 10dfd53209b655f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.FIRDataSnapshot&gt;) -&gt; () in ServiceField.TRCodeViewController.loadCodesFromFirebase() -&gt; ()"
+                  moduleName = "ServiceField"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c/Downloads/ServiceField/ServiceField/T&amp;R/TRCodeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "184473A5-ECD9-4268-8140-7E2F20E2C808 - 10dfd53209b655f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;__C.FIRDataSnapshot&gt;) -&gt; () in ServiceField.TRCodeViewController.loadCodesFromFirebase() -&gt; ()"
+                  moduleName = "ServiceField"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c/Downloads/ServiceField/ServiceField/T&amp;R/TRCodeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "721">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
