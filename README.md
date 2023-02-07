@@ -11,4 +11,6 @@ known error: T&R codes will add random numbers which wont show any data. adding 
 
 missing features but will come out in future releases: properly adding the data onto the profile page
 clocked in time stamps, proplery editting the trcuk inventory, control over employees as a manager.
+
+bject: this is an app where independent technicians may build their own training tracking to show employers, or the company can manage their employees and assign trucks which can keep track on iventory. much i sneeded for the app to flow better.
 '
